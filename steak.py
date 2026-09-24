@@ -1,3 +1,5 @@
+# Is there a relationship between gender and preferred steak preparation, and how do steak doneness preferences compare between males and females?
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -31,10 +33,6 @@ rel_long = (
 # Print the analysis findings to the terminal
 print("--- RELATIVE FREQUENCY (%) ---")
 print(rel_pct)
-print("\n--- CONCLUSION ---")
-print("Both genders share a very similar preference for 'Medium rare' steak, which is the mode for both groups.")
-print("However, males have a noticeably higher share of respondents who prefer 'Medium' steak.")
-print("Conversely, females have a higher relative frequency for 'Well' done and 'Medium Well' steaks.")
 
 # Generate and display the grouped bar chart
 plt.figure(figsize=(10, 6))
@@ -56,4 +54,5 @@ plt.savefig("steak_preparation_by_gender.png", dpi=200, bbox_inches="tight")
 # Show the plot
 plt.show()
 
-
+#CONCLUSION
+#Both men and women prefer "Medium rare" steak the most, making it the top choice across both groups. However, men are more likely to choose "Medium," while women tend to favor steaks cooked longer, such as "Medium Well" and "Well" done
